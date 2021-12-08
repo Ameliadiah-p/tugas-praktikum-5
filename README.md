@@ -14,32 +14,42 @@
 ##### Buat Dictionary daftar kontak
 Berikut programnya
 
+![rumus lat1](https://user-images.githubusercontent.com/92660371/145241634-e34523e4-ff58-43bf-9e55-f31dde3b0d32.png)
 
 
 Berikut tampilan programnya
 
-
+![tampilan dictionary](https://user-images.githubusercontent.com/92660371/145241644-44a58ac0-7acf-4450-a4bc-417cc6411db7.png)
 
 
 ##### Tampilkan Kontaknkya Ari 
 
+![Ari](https://user-images.githubusercontent.com/92660371/145241603-4924743f-9e72-4365-8898-58ff0318919b.png)
+
 
 ##### Tambah kontak baru dengan nama Riko, nomor 087654544
 
-
-##### Ubah kontak Dina dengan nomor baru 088999776
+![Riko](https://user-images.githubusercontent.com/92660371/145241632-81d65c42-9876-40d2-848a-08256ab88413.png)
 
 
 ##### Tampilkan semua Nama
 
+![kontak nama](https://user-images.githubusercontent.com/92660371/145241626-33d8dffc-76e1-4706-9260-275540723922.png)
+
 
 ##### Tampilkan semua Nomor
+
+![nomor](https://user-images.githubusercontent.com/92660371/145241629-bb08b05b-6711-420c-ab06-98fd67e80c2e.png)
 
 
 ##### Tampilkan daftar Nama dan nomornya
 
+![daftar kontak](https://user-images.githubusercontent.com/92660371/145241611-5e1b2e01-98d7-4112-9fa8-79d8f542d78a.png)
+
 
 ##### Hapus kontak Dina.
+
+![hapus](https://user-images.githubusercontent.com/92660371/145241623-19cb0e50-3a1c-44c1-a2b9-af39e17fb374.png)
 
 
 ===================================================
@@ -49,30 +59,22 @@ Berikut tampilan programnya
 
 Flowchart
 
+![flowchart](https://user-images.githubusercontent.com/92660371/145241613-874b56fc-a82a-48f0-be15-450a0c0f21b4.jpg)
 
 Berikut Programnya
 
+![rumus praktikum](https://user-images.githubusercontent.com/92660371/145241640-ad1973d3-af98-4b2e-9244-b88183218daf.png)
 
 Dengan keterangan
 
-'''Python
-
     a = {}
-
-'''
-
+    
 * Kode diatas untuk membuat dictionary kosong, untuk menampung dictionary dengan mrnggunakan tuple
-
-'''Python
 
     while True:
      x = input ("[T]tambah, [U]ubah, [H]hapus, [C]cari, [L]lihat, [K]keluar: ")
 
-'''
-
 * kode diatas untuk perulangan while, dan juga untuk menginisialkan penambahanan menu pilihan yaitu Tambah, Ubah, Hapus, Cari, Lihat dan Keluar
-
-'''Python
 
     if x.lower() == "t":
         print("Ubah Data")
@@ -83,13 +85,8 @@ Dengan keterangan
         tugas = int(input("Nilai Tugas                : "))
         hasil = tugas * 0.30 + uts * 0.35 + uas * 0.35
         a[nama] = nim, uts, uas, tugas, hasil
-
-'''
-
-
+        
 * kode diatas untuk syntak penambahan data, jika mengetikan "t" artinya menambahkan data, dan ditampung kedalam dictionary "a={}" dengan status keys, dan yang lainnya sebagai values
-
-'''Python
 
     elif x.lower() == "u":
         print("Ubah Data")
@@ -104,11 +101,7 @@ Dengan keterangan
         else:
             print("Nama{0} Tidak di Tentukan".format(nama))
 
-'''
-
 * code diatas untuk syntax mengubah data, jika mengetikan "u" maka akan melakukan perubahan data, tetapi yang dapat dibah hanya valuesnya saja
-
-'''Python
 
     elif x.lower() == "h":
         print("Hapus Data")
@@ -118,11 +111,7 @@ Dengan keterangan
         else:
             print("Nama{0} Tidak di Temukan".format(nama))
 
-'''
-
 * code diatas untuk syntak menghapus data, jika mengetikan "h" maka akaan melakukan penghapusan dengan statemen "del a[nama]"
-
-'''Python
 
     elif x.lower() == "c" :
         print("Cari Data")            
@@ -137,11 +126,7 @@ Dengan keterangan
         else:
             print("Nama{0} Tidak di Tentukan".format(nama))
 
-'''
-
 * code diatas adalah syntak untuk pencarian data, jika mengetikan "c" maka akan melakukan pencarian data dengan memasukan keys
-
-'''Python
 
     elif x.lower() == "l" :
         if a.items():
@@ -157,11 +142,7 @@ Dengan keterangan
                     .format(y[0][:13], y[1][0], y[1][1], y[1][2], y[1][3], y[1][4], no=i))
                 print("="*79)
 
-'''
-
 * code diatas untuk syntax melihat data, jika mengetikan "l" maka akan menampilkan keseluruhan dari data yang telah kita masukan
-
-'''Python
 
     else:
             print("="*79)
@@ -172,26 +153,19 @@ Dengan keterangan
             print("|                                   TIDAK ADA DATA                                  ") 
             print("="*79)
 
-'''
-
 * code diatas untuk menampilkan "TIDAK ADA DATA", jika kita mengetikan "l" dan sebelumnya belum pernah menambahkankan atau memasukan data
-
-'''Python
 
     elif x.lower() == "k":
         print("Anda Telah Keluar")
         break
-'''
 
 * code diatas untuk syntax keluar dari program, jika mengetikan "k" maka otomatis program selesai dan keluar
 
-'''Python
-
     else:
         print("Pilih Menu Yang Tersedia")
-'''
 
 * dan code yang terakhir adalah untuk syntax, jika kita mengetikan huruf yang diluar dari program, maka akan menampilkan "Pilih Menu Yang Tersedia"
 
 Berikut Tampilannya
+
 
