@@ -168,4 +168,6 @@ Dengan keterangan
 
 Berikut Tampilannya
 
+![tampilan akhir](https://user-images.githubusercontent.com/92660371/145243483-692295f6-1a07-4fd4-86fc-248a727a1e6e.png)
+
 
